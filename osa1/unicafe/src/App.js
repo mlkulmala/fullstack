@@ -33,7 +33,7 @@ const Statistics = ({ good, neutral, bad }) => {
 
 
 
-function Button({ handleClick, text }) {
+function Button ({ handleClick, text }) {
   return (
     <button onClick={handleClick}>
       {text}
